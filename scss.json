@@ -1,0 +1,607 @@
+{
+	
+	
+
+
+
+
+///////////////////////////
+// BREAKPOINTS
+///////////////////////////
+
+// small
+
+	"breakpoint(small)": {
+		"prefix": "bps",
+		"body": [
+			"@include breakpoint(small) {",
+			"  $1",
+			"}"
+		],
+		"description": "breakpoint(small) (custom)"
+	},
+	"breakpoint(small down)": {
+		"prefix": "bpsd",
+		"body": [
+			"@include breakpoint(small down) {",
+			"  $1",
+			"}"
+		],
+		"description": "breakpoint(small down) (custom)"
+	},
+	"breakpoint(small only)": {
+		"prefix": "bpso",
+		"body": [
+			"@include breakpoint(small only) {",
+			"  $1",
+			"}"
+		],
+		"description": "breakpoint(small only) (custom)"
+	},
+
+
+// medium
+
+"breakpoint(medium)": {
+	"prefix": "bpm",
+	"body": [
+		"@include breakpoint(medium) {",
+		"  $1",
+		"}"
+	],
+	"description": "breakpoint(medium) (custom)"
+},
+"breakpoint(medium down)": {
+	"prefix": "bpmd",
+	"body": [
+		"@include breakpoint(medium down) {",
+		"  $1",
+		"}"
+	],
+	"description": "breakpoint(medium down) (custom)"
+},
+"breakpoint(medium only)": {
+	"prefix": "bpmo",
+	"body": [
+		"@include breakpoint(medium only) {",
+		"  $1",
+		"}"
+	],
+	"description": "breakpoint(medium only) (custom)"
+},
+
+
+// large
+
+"breakpoint(large)": {
+	"prefix": "bpl",
+	"body": [
+		"@include breakpoint(large) {",
+		"  $1",
+		"}"
+	],
+	"description": "breakpoint(large) (custom)"
+},
+"breakpoint(large down)": {
+	"prefix": "bpld",
+	"body": [
+		"@include breakpoint(large down) {",
+		"  $1",
+		"}"
+	],
+	"description": "breakpoint(large down) (custom)"
+},
+"breakpoint(large only)": {
+	"prefix": "bplo",
+	"body": [
+		"@include breakpoint(large only) {",
+		"  $1",
+		"}"
+	],
+	"description": "breakpoint(large only) (custom)"
+},
+
+
+// xlarge
+
+"breakpoint(xlarge)": {
+	"prefix": "bpxl",
+	"body": [
+		"@include breakpoint(xlarge) {",
+		"  $1",
+		"}"
+	],
+	"description": "breakpoint(xlarge) (custom)"
+},
+"breakpoint(xlarge down)": {
+	"prefix": "bpxld",
+	"body": [
+		"@include breakpoint(xlarge down) {",
+		"  $1",
+		"}"
+	],
+	"description": "breakpoint(xlarge down) (custom)"
+},
+"breakpoint(xlarge only)": {
+	"prefix": "bpxlo",
+	"body": [
+		"@include breakpoint(xlarge only) {",
+		"  $1",
+		"}"
+	],
+	"description": "breakpoint(xlarge only) (custom)"
+},
+
+
+// xxlarge
+
+"breakpoint(xxlarge)": {
+	"prefix": "bpxxl",
+	"body": [
+		"@include breakpoint(xxlarge) {",
+		"  $1",
+		"}"
+	],
+	"description": "breakpoint(xxlarge) (custom)"
+},
+"breakpoint(xxlarge down)": {
+	"prefix": "bpxxld",
+	"body": [
+		"@include breakpoint(xxlarge down) {",
+		"  $1",
+		"}"
+	],
+	"description": "breakpoint(xxlarge down) (custom)"
+},
+"breakpoint(xxlarge only)": {
+	"prefix": "bpxxlo",
+	"body": [
+		"@include breakpoint(xxlarge only) {",
+		"  $1",
+		"}"
+	],
+	"description": "breakpoint(xxlarge only) (custom)"
+},
+
+
+// phone
+
+"breakpoint(phone)": {
+	"prefix": "bpp",
+	"body": [
+		"@include breakpoint(phone) {",
+		"  $1",
+		"}"
+	],
+	"description": "breakpoint(phone) (custom)"
+},
+"breakpoint(phone down)": {
+	"prefix": "bppd",
+	"body": [
+		"@include breakpoint(phone down) {",
+		"  $1",
+		"}"
+	],
+	"description": "breakpoint(phone down) (custom)"
+},
+"breakpoint(phone only)": {
+	"prefix": "bppo",
+	"body": [
+		"@include breakpoint(phone only) {",
+		"  $1",
+		"}"
+	],
+	"description": "breakpoint(phone only) (custom)"
+},
+
+
+// phablet
+
+"breakpoint(phablet)": {
+	"prefix": "bpph",
+	"body": [
+		"@include breakpoint(phablet) {",
+		"  $1",
+		"}"
+	],
+	"description": "breakpoint(phablet) (custom)"
+},
+"breakpoint(phablet down)": {
+	"prefix": "bpphd",
+	"body": [
+		"@include breakpoint(phablet down) {",
+		"  $1",
+		"}"
+	],
+	"description": "breakpoint(phablet down) (custom)"
+},
+"breakpoint(phablet only)": {
+	"prefix": "bppho",
+	"body": [
+		"@include breakpoint(phablet only) {",
+		"  $1",
+		"}"
+	],
+	"description": "breakpoint(phablet only) (custom)"
+},
+
+
+// tablet-p
+
+	"breakpoint(tablet-p)": {
+		"prefix": "bptp",
+		"body": [
+			"@include breakpoint(tablet-p) {",
+			"  $1",
+			"}"
+		],
+		"description": "breakpoint(tablet-p) (custom)"
+	},
+	"breakpoint(tablet-p down)": {
+		"prefix": "bptpd",
+		"body": [
+			"@include breakpoint(tablet-p down) {",
+			"  $1",
+			"}"
+		],
+		"description": "breakpoint(tablet-p down) (custom)"
+	},
+	"breakpoint(tablet-p only)": {
+		"prefix": "bptpo",
+		"body": [
+			"@include breakpoint(tablet-p only) {",
+			"  $1",
+			"}"
+		],
+		"description": "breakpoint(tablet-p only) (custom)"
+	},
+
+
+// tablet-l
+
+"breakpoint(tablet-l)": {
+	"prefix": "bptl",
+	"body": [
+		"@include breakpoint(tablet-l) {",
+		"  $1",
+		"}"
+	],
+	"description": "breakpoint(tablet-l) (custom)"
+},
+"breakpoint(tablet-l down)": {
+	"prefix": "bptld",
+	"body": [
+		"@include breakpoint(tablet-l down) {",
+		"  $1",
+		"}"
+	],
+	"description": "breakpoint(tablet-l down) (custom)"
+},
+"breakpoint(tablet-l only)": {
+	"prefix": "bptlo",
+	"body": [
+		"@include breakpoint(tablet-l only) {",
+		"  $1",
+		"}"
+	],
+	"description": "breakpoint(tablet-l only) (custom)"
+},
+
+
+// laptop
+
+"breakpoint(laptop)": {
+	"prefix": "bplt",
+	"body": [
+		"@include breakpoint(laptop) {",
+		"  $1",
+		"}"
+	],
+	"description": "breakpoint(laptop) (custom)"
+},
+"breakpoint(laptop down)": {
+	"prefix": "bpltd",
+	"body": [
+		"@include breakpoint(laptop down) {",
+		"  $1",
+		"}"
+	],
+	"description": "breakpoint(laptop down) (custom)"
+},
+"breakpoint(laptop only)": {
+	"prefix": "bplto",
+	"body": [
+		"@include breakpoint(laptop only) {",
+		"  $1",
+		"}"
+	],
+	"description": "breakpoint(laptop only) (custom)"
+},
+
+
+// desktop
+
+"breakpoint(desktop)": {
+	"prefix": "bpd",
+	"body": [
+		"@include breakpoint(desktop) {",
+		"  $1",
+		"}"
+	],
+	"description": "breakpoint(desktop) (custom)"
+},
+"breakpoint(desktop down)": {
+	"prefix": "bpdd",
+	"body": [
+		"@include breakpoint(desktop down) {",
+		"  $1",
+		"}"
+	],
+	"description": "breakpoint(desktop down) (custom)"
+},
+"breakpoint(desktop only)": {
+	"prefix": "bpdo",
+	"body": [
+		"@include breakpoint(desktop only) {",
+		"  $1",
+		"}"
+	],
+	"description": "breakpoint(desktop only) (custom)"
+},
+
+
+
+
+
+
+
+
+
+
+
+///////////////////////////
+// Mixins
+///////////////////////////
+
+"staggered-transitions mixin": {
+	"prefix": "stag",
+	"body": [
+		"@include staggered-transitions(${1:1}, ${2:3}, ${3:0}, ${4:200});"
+	],
+	"description": "staggered-transitions() (custom)"
+},
+
+"font mixin": {
+	"prefix": "fontmix",
+	"body": [
+		"@include font(${1:32}, ${2:48}, ${3:400}, ${4:0});"
+	],
+	"description": "font() (custom)"
+},
+
+"default background mixin": {
+	"prefix": "bgmix",
+	"body": [
+		"@include default-bg(${1:center}, ${2:cover}, ${3:no-repeat});"
+	],
+	"description": "default-bg() (custom)"
+},
+
+
+
+
+
+
+
+
+///////////////////////////
+// rem-calc()
+///////////////////////////
+
+
+"rem-calc()": {
+ "prefix": "remc",
+ "body": [
+	 "rem-calc($1)"
+ ],
+ "description": "rem-calc() (custom)"
+},
+
+"font-size: rem-calc()": {
+	"prefix": "fsremc",
+	"body": [
+		"font-size: rem-calc($1);"
+	],
+	"description": "font-size: rem-calc() (custom)"
+ },
+
+ "line-height: rem-calc()": {
+	"prefix": "lhremc",
+	"body": [
+		"line-height: rem-calc($1);"
+	],
+	"description": "line-height: rem-calc() (custom)"
+ },
+
+
+// directional 
+
+ "top: rem-calc()": {
+	"prefix": "toremc",
+	"body": [
+		"top: rem-calc($1);"
+	],
+	"description": "top: rem-calc() (custom)"
+ },
+
+ "right: rem-calc()": {
+	"prefix": "riremc",
+	"body": [
+		"right: rem-calc($1);"
+	],
+	"description": "right: rem-calc() (custom)"
+ },
+
+ "bottom: rem-calc()": {
+	"prefix": "boremc",
+	"body": [
+		"bottom: rem-calc($1);"
+	],
+	"description": "bottom: rem-calc() (custom)"
+ },
+
+ "left: rem-calc()": {
+	"prefix": "leremc",
+	"body": [
+		"left: rem-calc($1);"
+	],
+	"description": "left: rem-calc() (custom)"
+ },
+
+
+// width
+
+"width: rem-calc()": {
+	"prefix": "wremc",
+	"body": [
+		"width: rem-calc($1);"
+	],
+	"description": "width: rem-calc() (custom)"
+},
+
+"max-width: rem-calc()": {
+	"prefix": "maxwremc",
+	"body": [
+		"max-width: rem-calc($1);"
+	],
+	"description": "max-width: rem-calc() (custom)"
+},
+
+"min-width: rem-calc()": {
+	"prefix": "minwremc",
+	"body": [
+		"min-width: rem-calc($1);"
+	],
+	"description": "min-width: rem-calc() (custom)"
+},
+
+
+// height	
+
+"height: rem-calc()": {
+	"prefix": "hremc",
+	"body": [
+		"height: rem-calc($1);"
+	],
+	"description": "height: rem-calc() (custom)"
+},
+
+"max-height: rem-calc()": {
+	"prefix": "maxhremc",
+	"body": [
+		"max-height: rem-calc($1);"
+	],
+	"description": "max-height: rem-calc() (custom)"
+},
+
+"min-height: rem-calc()": {
+	"prefix": "minhremc",
+	"body": [
+		"min-height: rem-calc($1);"
+	],
+	"description": "min-height: rem-calc() (custom)"
+},
+
+
+// padding
+
+"padding: rem-calc()": {
+	"prefix": "premc",
+	"body": [
+		"padding: rem-calc($1);"
+	],
+	"description": "padding: rem-calc() (custom)"
+},
+
+"padding-top: rem-calc()": {
+	"prefix": "ptremc",
+	"body": [
+		"padding-top: rem-calc($1);"
+	],
+	"description": "padding-top: rem-calc() (custom)"
+ },
+
+ "padding-right: rem-calc()": {
+	"prefix": "prremc",
+	"body": [
+		"padding-right: rem-calc($1);"
+	],
+	"description": "padding-right: rem-calc() (custom)"
+ },
+
+ "padding-bottom: rem-calc()": {
+	"prefix": "pbremc",
+	"body": [
+		"padding-bottom: rem-calc($1);"
+	],
+	"description": "padding-bottom: rem-calc() (custom)"
+ },
+
+ "padding-left: rem-calc()": {
+	"prefix": "plremc",
+	"body": [
+		"padding-left: rem-calc($1);"
+	],
+	"description": "padding-left: rem-calc() (custom)"
+ },
+
+
+ // margin
+
+ "margin: rem-calc()": {
+	"prefix": "mremc",
+	"body": [
+		"margin: rem-calc($1);"
+	],
+	"description": "margin: rem-calc() (custom)"
+ },
+
+ "margin-top: rem-calc()": {
+	"prefix": "mtremc",
+	"body": [
+		"margin-top: rem-calc($1);"
+	],
+	"description": "margin-top: rem-calc() (custom)"
+ },
+
+ "margin-right: rem-calc()": {
+	"prefix": "mrremc",
+	"body": [
+		"margin-right: rem-calc($1);"
+	],
+	"description": "margin-right: rem-calc() (custom)"
+ },
+
+ "margin-bottom: rem-calc()": {
+	"prefix": "mbremc",
+	"body": [
+		"margin-bottom: rem-calc($1);"
+	],
+	"description": "margin-bottom: rem-calc() (custom)"
+ },
+
+ "margin-left: rem-calc()": {
+	"prefix": "mlremc",
+	"body": [
+		"margin-left: rem-calc($1);"
+	],
+	"description": "margin-left: rem-calc() (custom)"
+ }
+
+
+
+
+
+
+
+}
